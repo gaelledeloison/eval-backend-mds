@@ -1,30 +1,14 @@
 index.php
 
-<form action="/my-handling-form-page" method="post">
+echo "<FORM action='Modification3.php' method='get'><br>";
 
-</form>
-<form action="/ma-page-de-traitement" method="post">
-    <div>
-        <label  name for="name"> GD Nom :</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-     <label numéro for="Num"> GD Numéro :</label>
-        <input type="text" id="Numéro" name="user_name">
-    </div>
-    <div>
-    <label adresse for="Adresse"> GD Adresse :</label>
-        <input type="text" id="Adresse" name="user_name">
-    </div>
-    <div>
-        <label for="mail"> GD e-mail :</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-        <label for="msg">GD Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
-     <div class="button">
-        <button type="submit">Envoyer le message</button>
-    </div>
- 
-</form>
+
+<echo> GD Nom : <Input type='text' name=GD Nom size=20 value=><br></br>
+<echo> GD Prénom : <Input type='text' name='GD Prenom' size=50 value= ><br></br>
+<echo> GD Adresse : <Input type='text' name='GD Adresse' size=25 value=><br></br>
+<echo> GD Code postal : <Input type='text' name='GD Code_postal' size=10 value=><br></br>
+<echo> GD Ville : <Input type='text' name='GD Ville' size='40' value=><br></br>";
+<echo> GD Portable : <Input type='text' name='GD Portable' size='40' value=><br></br>"
+<echo> GD Mail : <Input type='text' name='GD Mail' size='40' value=><br></br>"
+
+<echo> Envoyer un message : <Input type='submit' name='envoyer' value=Envoyer un message !>
